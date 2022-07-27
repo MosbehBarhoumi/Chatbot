@@ -1,0 +1,36 @@
+{"intentsf": [
+  {"tag": "salutation",
+  "patterns": ["Bonjour",  "Bonsoir","salut","Aloo","salamalec","coucou"],
+  "responses": ["bienvenue :)","Salut"],
+  "context_set": ""
+},
+    {"tag": "Chatbot",
+      "patterns": ["Comment vous appelez-vous ?" , "Comment tu t'appelles ?"],
+      "responses": ["Je m'appelle EduFlow, assistant de takiacademy"],
+      "context_set": ""
+    },
+    {"tag": "CV",
+      "patterns": ["Comment allez-vous ?", "Comment ça va ?","Ça va ?"],
+      "responses": ["Ça va bien et vous"],
+      "context_set": ""
+    },
+    {"tag": "languages",
+      "patterns": [" Parlez-vous anglais/français ?",  "Est-ce qu’il y a quelqu’un qui parle anglais/français ?","quel langue vous parlez"],
+      "responses": ["Je parle francais, anglais et arabe"],
+      "context_set": ""
+    },
+  {"tag": "Good_bye",
+    "patterns": ["au revoir",  "à la prochaine","à bientôt","à la revoyure","adieu","A tout à l'heure.","A demain","A la semaine prochaine"],
+    "responses": ["A bientôt! ","Au revoir!"],
+    "context_set": ""
+  }
+  
+
+
+
+
+
+
+
+]
+}

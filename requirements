@@ -1,0 +1,6 @@
+flask=2.1.2
+nltk=3.7
+tensoflow=2.5.0
+joblib=1.1.0
+
+the other requirements doesn't need any specific  version just install the last version or upgrade your version

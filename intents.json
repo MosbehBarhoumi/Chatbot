@@ -1,0 +1,357 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["hi", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there"],
+      "context_set": ""
+    },
+    {"tag": "MY_NAME_IS",
+      "patterns": ["I'm Mosbeh", "My name is Mohamed", "I named Salah", "Ali", "my name is Hassen", "i'm ms Safwen", "u can call me Mohamed"],
+      "responses": ["welcome"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["Shut up","Thank you for your time","Thanks very muc bye! ","That is all","That's everything","Time to go",
+        "Stop doing this","It was nice chatting with you",
+        "Ok goodbye","See you later","See you","Stop talking to me"
+        ,"Go away"
+        ,"Go off"
+        ,"Bye bye"
+        ,"Bye now"
+        ,"Catch you later"
+        ,"Cya later"
+        ,"Ed trial"
+        ,"Ending this session"
+        ,"Finished no good bye"
+        ,"Get lost"
+        ,"Going now"
+        ,"Good bye."
+        ,"Goodbye"
+        ,"Have a nice day?"
+        ,"Hey bot go away"
+        ,"I am leaving"
+        ,"I am out of here"
+        ,"I d like to stop doing this"
+        ,"I have got to go"
+        ,"I want to quit"
+        ,"I'm done"
+        ,"Im done"
+        ,"Im good thank you"
+        ,"I'm leaving now"],
+      "responses": ["Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {"tag": "about_takiacademy",
+      "patterns": ["what is takiacademy ?", "can u tell me about takiacademy ?", "takiacademy is ?", " why takiacademy ?", "how takiacademy could help me ?"],
+      "responses": ["TakiAcademy.com is a student-centered learning platform.Study online at Taki Academy with over 280,000 students.check this link for more information : https://www.youtube.com/watch?v=L36YrGMQGO0&list=TLGGgxJuYEWEFiEwNDA3MjAyMg&t=6s"],
+      "context_set": ""
+    },
+    {"tag": "General_Agent_Capabilities",
+      "patterns":["Help now","Do you have a list of things I can talk to you about?","How do I use you?","I do not know what to ask","Can you please give me a list of the types of things you can help me with?","How to talk to you","can you tell about your strength ?","Can you tell me what services you are able to help me with?", "Where can I find the frequently asked questions?", "What kinds of things can you do?", "What can you teach me ?","What else can you help me with?","What is this 4?","What do you handle?", "What do you do?", "What can I ask you to do?","What are your skills?","What are you used for?","Hi, what do you do?","How can I use you?","How can you help me?","How can you solve my problems?","I'd like to know what type of questions you can answer for me.","Is there anything you can help me with?","Tell me about what kind of things you do?","Tell me something","What are my options that you can help with?","What are you able to deal with?", "What are you able to understand?","What are you used for?"],
+      "responses": ["I can chat with you ,I can answer you any question about takiacademy and I can recommend courses from our platform :)"],
+      "context_set": ""
+    },
+    {"tag": "whoareu",
+      "patterns":["Introduce your self","Let us talk about you","Where were you born?","What's your name?","What should I know about you?","What languages do you speak?","Tell me something about yourself","Tell me about your life","Who are you?","Why are you here?","Where are you from?","How can I configure you?","About you","Describe your self", "Do you have a name?","Do you know who you are?","How do you function?","How old are you?"],
+      "responses": ["I'm EduFLow, a Chatbot from takiacademy."],
+      "context_set": ""
+    },
+    {"tag": "channel",
+      "patterns": [" do u  have a youtube channel ?", " give me the link for your youtube channel?"],
+      "responses": ["we have a youtube channel that contains over 1200 videos about different topics , please check this link : https://www.youtube.com/c/TakiAcademy :)"],
+      "context_set": ""
+    },
+    {"tag": "account_recharge",
+      "patterns": [" how can i recharge my account ?", " i want to add points to my account , what should i do?"],
+      "responses": ["Move to the wallet section and choose one option , you can choose : Bank transfer,D17 or online payment "],
+      "context_set": ""
+    },
+    {"tag": "phone_number",
+      "patterns": [" phone number?", " i want a phone number?","number of phone"],
+      "responses": ["Feel free to call us at 73 832 000 "],
+      "context_set": ""
+    },
+    {"tag": "live_session",
+      "patterns": [" how can i join a live session ?", " i want to know how to join a live session?","steps to join a live session !"],
+      "responses": ["I will redirect to an article that will help you. https://help.takiacademy.com/ar/article/kyfya-almsharka-fy-hsa-mbashra-eh3div/ "],
+      "context_set": ""
+    },
+    {"tag": "exercice",
+      "patterns": [" how can i find exercices about french ?", " where can i find exercices and lessons ?","can't find ressources "],
+      "responses": ["I will redirect to an article that will help you. https://help.takiacademy.com/ar/article/ayn-agd-altmaryn-omglat-altmaryn-155lmlk/ "],
+      "context_set": ""
+    },
+    {"tag": "pdf",
+      "patterns": [" i want to study with pdf ?", " where do i find the pdf file with the video?"," i want pdf file "],
+      "responses": ["I will redirect to an article that will help you. https://help.takiacademy.com/ar/article/ayn-agd-al-pdf-almrafk-lfydyo-ao-tsgyl-hsa-mbashra-ao-mgla-1s2fmr0/ "],
+      "context_set": ""
+    },
+    {"tag": "password",
+      "patterns": [" i want to change my password?", " change my password ?"," how can i change my password  "],
+      "responses": ["I will redirect to an article that will help you. https://help.takiacademy.com/ar/article/kyf-aghyr-klma-alsr-mn-dakhl-hsaby-ue1uz9/"],
+      "context_set": ""
+    },
+    {"tag": "subject_section",
+      "patterns": ["navigate to the subject section",
+      "opening the subject section would be appreciated",
+      "open the subject section in new tab",
+      "going to the subject area",
+      "go to the subject area",
+      "Open a new tab, open the subject section",
+      "open a new tab to reveal the subject section",
+      "the subject section in a new tab"],
+      "responses": ["https://app.takiacademy.com/subjects"],
+      "context_set": ""
+    },
+    {"tag": "wallet_section",
+    "patterns": ["navigate to the wallet section",
+    "opening the wallet section would be appreciated",
+    "open the wallet section in new tab",
+    "going to the wallet area",
+    "go to the wallet area",
+    "Open a new tab, open the wallet section",
+    "open a new tab to reveal the wallet section",
+    "the wallet section in a new tab"],
+    "responses": ["https://app.takiacademy.com/porte-monnaie"],
+    "context_set": ""
+  },
+  {"tag": "assistance_section",
+  "patterns": ["navigate to the assistance section",
+  "opening the assistance section would be appreciated",
+  "open the assistance section in new tab",
+  "going to the assistance area",
+  "go to the assistance area",
+  "Open a new tab, open the assistance section",
+  "open a new tab to reveal the assistance section",
+  "the assistance section in a new tab"],
+  "responses": ["https://app.takiacademy.com/assistance"],
+  "context_set": ""
+},
+{"tag": "live_section",
+  "patterns": ["navigate to the live section",
+  "opening the live section would be appreciated",
+  "open the live section in new tab",
+  "going to the live area",
+  "go to the live area",
+  "Open a new tab, open the live section",
+  "open a new tab to reveal the live section",
+  "the live section in a new tab"],
+  "responses": ["https://app.takiacademy.com/sessions"],
+  "context_set": ""
+},
+{"tag": "Favorites_section",
+  "patterns": [
+    "navigate to the Favorites section",
+      "opening the Favorites section would be appreciated",
+      "open the Favorites section in new tab",
+      "going to the Favorites area",
+      "go to the Favorites area",
+      "Open a new tab, open the Favorites section",
+      "open a new tab to reveal the Favorites section",
+      "the Favorites section in a new tab"],
+  "responses": ["https://app.takiacademy.com/liste-de-favoris"],
+  "context_set": ""
+},
+{"tag": "History_section",
+  "patterns": [
+    "navigate to the History section",
+    "opening the History section would be appreciated",
+    "open the History section in new tab",
+    "going to the History area",
+    "go to the History area",
+    "Open a new tab, open the History section",
+    "open a new tab to reveal the History section",
+    "the History section in a new tab"],
+  "responses": ["https://app.takiacademy.com/liste-de-favoris"],
+  "context_set": ""
+},
+{"tag": "Profile_section",
+  "patterns": [
+    "open my profile",
+    "i want to see my profile",
+    "show me my profile",
+    "can you navigate to my profile",
+    "i want to check my profile"],
+  "responses": ["https://app.takiacademy.com/mon-profil"],
+  "context_set": ""
+},
+
+    {"tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"],
+      "context": [""]
+     },
+     {"tag": "noanswer",
+      "patterns": [],
+      "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+      "context": [""]
+     },
+     {"tag": "howareu",
+      "patterns": [
+        "How are you?",
+        "Hi how are you?",
+        "Hello how are you?",
+        "Hola how are you?",
+        "How are you doing?",
+        "Hope you are doing well?",
+        "Hello hope you are doing well?"
+  ],
+      "responses":[
+        "I am great, how are you? ",
+        "I am great thanks! how are you?  ",
+        "I am good thank you, how are you? ",
+        "I am great, how are you? ",
+        "I am great thanks! how are you?  ",
+        "I am good thank you, how are you? ",
+        "Good thank you, how are you? "
+  ]
+     },
+     {"tag": "UnderstandQuery",
+      "patterns":  [
+        "Do you understand what I am saying",
+        "Do you understand me",
+        "Do you know what I am saying",
+        "Do you get me",
+        "Comprendo",
+        "Know what I mean"
+  ],
+      "responses":[
+        "Well I would not be a very clever AI if I did not would I?",
+        "I read you loud and clear!",
+        "I do in deed!"
+  ]
+     },
+
+     {"tag": "General_Positive_Feedback",
+      "patterns": [ "I like what you did there! :)","How cool is this?", "Can't believe you are that good","Brilliant!", "This is so cool","Love your work", "You are great", "You are the best","You the man","You're a genius!","You've been so helpful :)","You gave me exactly what I need!","You are wonderful", "This is great","This is good", "You are awesome","I'm looking forward to working with you again! :)","You are very clever","You are a very clever girl","You are very intelligent","You are a very intelligent girl","You are a genious","Clever girl","Genious","nice  u are clever"],
+      "responses":[
+        "Thank you, I was trained that way",
+        "I was trained well",
+        "Thanks, I was trained that way"
+  ]
+     },
+
+     {"tag": "General_Negative_Feedback",
+      "patterns":["Stupid","Why are you so annoying?","I hate this!","Why are you stupid?","You are having delusions", "You are very frustrating","You are on my nerves","I hate you","It is annoying","Quit annoying me","Robots are boring","You're too stupid","Do not like you?","Everyone hates you","Hate you","You're really irritating","You're really frustrating","You do not seem smart"],
+      "responses":["Ohh that's was rude ! ,I'm doing my best to be a good helper for you , but no one is flawless "]
+     },
+
+     {"tag": "Jokes",
+      "patterns":[
+        "Tell me a joke",
+        "Do you know any jokes",
+        "How about a joke",
+        "Give me a joke",
+        "Make me laugh",
+        "I need cheering up"
+  ],
+      "responses":[
+        "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
+        "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
+        "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
+        "So I went down the local supermarket, I said, 'I want to make a complaint, this vinegar's got lumps in it', he said, 'Those are pickled onions'.  ",
+        "I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
+        "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
+        "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
+        "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+        "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
+        "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
+        "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+        "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+        "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+        "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+        "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+        "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
+        "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+        "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+        "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+        "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+        "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+        "A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
+        "Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'",
+        "'Doc, I can't stop singing 'The Green, Green Grass of Home.'' 'That sounds like Tom Jones Syndrome.' 'Is it common?' 'It's Not Unusual.'",
+        "Two cows standing next to each other in a field. Daisy says to Dolly, 'I was artificially inseminated this morning.' 'I don't believe you', said Dolly. 'It's true, no bull!' exclaimed Daisy.",
+        "An invisible man marries an invisible woman. The kids were nothing to look at either.",
+        "I went to buy some camouflage trousers the other day but I couldn't find any.",
+        "I went to the butcher's the other day to bet him 50 bucks that he couldn't reach the meat off the top shelf. He said, 'No, the steaks are too high.'",
+        "I went to a seafood disco last week and pulled a mussel.",
+        "A man goes into a bar and says, 'Can I have a bottle of less?' 'What's that?', asks the barman, 'Is it the name of a beer?' 'I don't know', replies the man, 'but my doctor says I have to drink it.'",
+        "A man returns from an exotic holiday and is feeling very ill. He goes to see his doctor, and is immediately rushed to the hospital to undergo some tests. The man wakes up after the tests in a private room at the hospital, and the phone by his bed rings. 'This is your doctor. We have the results back from your tests and we have found you have an extremely nasty disease called M.A.D.S. It's a combination of Measles, AIDS, Diphtheria, and Shingles!'  'Oh my gosh', cried the man, 'What are you going to do, doctor?'  'Well we're going to put you on a diet of pizzas, pancakes, and pita bread.' replied the doctor.  'Will that cure me?' asked the man.  The doctor replied, 'Well no, but, it's the only food we can slide under the door.'",
+        "A man strolls into a lingerie shop and asks the assistant: 'Do you have a see-through negligee, size 46-48-52?' The assistant looks bewildered. 'What the heck would you want to see through that for?'!",
+        "Did you hear about the Buddhist who refused the offer of Novocain during his root canal work? He wanted to transcend dental medication.",
+        "Pete goes for a job on a building site as an odd-job man. The foreman asks him what he can do. 'I can do anything' says Pete. 'Can you make tea?' asks the foreman. 'Sure, yes', replies Pete. 'I can make a great cup of tea.' 'Can you drive a forklift?' asks the foreman, 'Good grief!' replies Pete. 'How big is the teapot?'",
+        "Stevie Wonder got a cheese grater for his birthday. He said it was the most violent book he'd ever read.",
+        "A man is stopped by an angry neighbour. 'I'd just left the house this morning to collect my newspaper when that evil Doberman of yours went for me!' 'I'm astounded', said the dog's owner. 'I've been feeding that fleabag for seven years and it's never got the paper for me.'",
+        "A man visits his doctor: 'Doc, I think I'm losing it', he says',I'm forever dreaming I wrote Lord Of The Rings.' 'Hmm. One moment', replies the doctor, consulting his medical book. 'Ah yes, now I see... you've been Tolkien in your sleep.'",
+        "A police officer on a motorcycle pulls alongside a man driving around the M25 in an open-topped sports car and flags him down. The policeman solemnly approaches the car. 'Sir, I'm sorry to tell you your wife fell out a mile back', he says. 'Oh, thank goodness', the man replies. 'I thought I was going deaf.'",
+        "Two men walking their dogs pass each other in a graveyard. The first man says to the second, 'Morning.' 'No', says the second man. 'Just walking the dog.'"
+  ]
+     },
+     {"tag": "goodmood",
+      "patterns": ["i'm good", "i'm so happy", "good and u ?","i'm doing well","i'm in a great mood","good"],
+      "responses": ["great! so happy for you !","owww we have a happy user here ","happy student yeyyyy"],
+      "context_set": ""
+    },
+    {"tag": "sadmood",
+      "patterns": ["i'm not good", "i'm so sad", "sad","i'm not doing well","i'm not in a great mood","i'm not in my bests day","i feel so sad"],
+      "responses": ["*****************"],
+      "context_set": ""
+    },
+  {
+    "tag": "creator",
+    "patterns": [
+        "Who is your creator?",
+        "Who created you",
+        "Who is your father.",
+        "Who is your daddy."
+    ],
+    "responses": [
+        "That would be  Mr. MOSBEH.",
+        "I was created by Mr. MOSBEH.",
+        "Mr. MOSBEH is my creator."
+    ],
+    "context_set": ""
+},
+{
+  "tag": "EducationProblem",
+  "patterns": [
+      "I'm not doing well at school ",
+      "My class degree are not going well",
+      "i have bad degrees.",
+      "I Study Hard, But I Still Get Bad Grades"
+  ],
+  "responses": [
+    "If possible, take some time off, and please check this playlist it will help you .The link : https://www.youtube.com/watch?v=eL4oVlFQYtc&list=PLUDUTmpExkvLFZoRVeItgt1NR7aPG1Hwh"
+  ],
+  "context_set": ""
+},
+
+{
+  "tag": "BotChallenge",
+  "patterns":  ["Am I talking to a Bot?","Am I talking to a person or am I talking to an AI?","Am I chatting with a human?","Am I talking to Watson?","Are you a human or a bot?","Are you a robot?","Are you even real?","Are you human?","Are you real?","How can you prove you are a human?","Is this a computer?","Tell me, are you a human or no?" ],
+  "responses": [
+    "I'm definitly an AI, not a human , but i'm pretty advanced"
+  ],
+  "context_set": ""
+},
+{
+  "tag": "Date",
+  "patterns":  ["what is the date today","tell me the date today","today's date","the date today","Do you know the date? ","What date are we on today?" ],
+  "responses": [
+    "It's : "
+  ],
+  "context_set": ""
+}
+
+
+    
+
+
+
+
+
+
+
+    
+
+  ]
+  }
