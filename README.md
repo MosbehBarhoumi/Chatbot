@@ -9,9 +9,9 @@ Here is a simple flow chart:
 
 ```mermaid
 flowchart LR
-   LanguageDetection == Good Morning ==> EnglishModel
-   LanguageDetection == bonjour ==> FrenchModel
-   LanguageDetection == "مرحباً" ==> ArabicModel
+   Input == LanguageDetection ==> English ==  EnglishModel ==> FinalResponse
+   Input == LanguageDetection ==> French ==  FrenchModel ==> FinalResponse
+   Input == LanguageDetection ==> Arabic ==  ArabicModel ==> FinalResponse
    
 ```
 
