@@ -19,6 +19,7 @@ Once you clone the project you can try it out:
  cd Chatbot 
  python app.py
 ```
+## Demo :
 ![english](https://user-images.githubusercontent.com/78423450/182024762-a32f95cd-8ad6-4e06-8322-3cc3ed6c0e05.png)
 ![french](https://user-images.githubusercontent.com/78423450/182024763-da0208f0-c306-4383-905c-a75426d7db45.png)
 ![Arabic](https://user-images.githubusercontent.com/78423450/182024765-3b9aee94-432b-4af4-a704-012805cd150d.png)
