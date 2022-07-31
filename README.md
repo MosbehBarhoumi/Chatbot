@@ -11,7 +11,7 @@ Here is a simple flow chart:
 flowchart LR
    LanguageDetection == Good Morning ==> EnglishModel
    LanguageDetection == bonjour ==> FrenchModel
-   LanguageDetection == مرحباً ==> ArabicModel
+   LanguageDetection == "مرحباً" ==> ArabicModel
    
 ```
 
