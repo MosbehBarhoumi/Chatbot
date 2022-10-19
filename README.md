@@ -5,13 +5,8 @@ I strongly recommend working in an isolated environment so you can work on diffe
 
 For every single message from the user, the chatbot has to figure out the language and respond to this message based on the "intents" file for it. (Please feel free to add more intents)
 
-```mermaid
-flowchart LR
-   Input == LanguageDetection ==> English ==  EnglishModel ==> FinalResponse
-   Input == LanguageDetection ==> French ==  FrenchModel ==> FinalResponse
-   Input == LanguageDetection ==> Arabic ==  ArabicModel ==> FinalResponse
-   
-```
+![part](https://user-images.githubusercontent.com/78423450/196804799-7da1802b-d447-4595-a228-bc54d0ced7c6.png)
+
 
 Once you clone the project you can try it out:
  ```
@@ -20,8 +15,9 @@ Once you clone the project you can try it out:
  python app.py
 ```
 ## Demo :
-![english](https://user-images.githubusercontent.com/78423450/182024762-a32f95cd-8ad6-4e06-8322-3cc3ed6c0e05.png)
-![french](https://user-images.githubusercontent.com/78423450/182024763-da0208f0-c306-4383-905c-a75426d7db45.png)
-![Arabic](https://user-images.githubusercontent.com/78423450/182024765-3b9aee94-432b-4af4-a704-012805cd150d.png)
+![1](https://user-images.githubusercontent.com/78423450/196804980-6099eeb5-aeeb-495d-88e3-a624b3c7654f.png)
+![2](https://user-images.githubusercontent.com/78423450/196804992-f49c031f-8ece-4dd7-90aa-b532ac59d311.png)
+![3](https://user-images.githubusercontent.com/78423450/196805005-b4327708-b6b8-44f6-ad01-097d2325dc81.png)
+
 
 
